@@ -2,11 +2,11 @@
 environment:
     nodejs_version: "12"
   
-  # Install scripts. (runs after repo cloning)
-  install:
+# Install scripts. (runs after repo cloning)
+install:
     # Get the latest stable version of Node.js or io.js
     - ps: Install-Product node 12
     # install modules
     - npm install
   # Don't actually build.
-  build: off
+build: off
