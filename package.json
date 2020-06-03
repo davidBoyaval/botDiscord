@@ -1,0 +1,23 @@
+{
+  "name": "botdiscord",
+  "version": "1.0.0",
+  "description": "bot discord open source",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidBoyaval/botDiscord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidBoyaval/botDiscord/issues"
+  },
+  "homepage": "https://github.com/davidBoyaval/botDiscord#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "mysql.js": "^1.0.2"
+  }
+}
