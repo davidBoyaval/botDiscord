@@ -1,5 +1,3 @@
-build: off
-
 # Test against the latest version of this Node.js version
 environment:
     nodejs_version: "12"
